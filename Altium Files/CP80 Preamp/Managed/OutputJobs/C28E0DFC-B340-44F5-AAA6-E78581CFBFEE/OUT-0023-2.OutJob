@@ -1,0 +1,118 @@
+[OutputJobFile]
+Version=1.0
+Caption=Validation Release
+Description=
+VaultGUID=17D44472-9AE0-411C-8C1D-F6AAC254692A
+ItemGUID=F69E4C0E-1E03-4BB5-BBA8-09F4B576988B
+ItemHRID=
+RevisionGUID=C28E0DFC-B340-44F5-AAA6-E78581CFBFEE
+RevisionId=
+VaultHRID=Bissell Homecare Inc
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Job Group
+Description=
+TargetOutputMedium=Folder Structure
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Folder Structure
+OutputMedium1_Type=GeneratedFiles
+OutputType1=Component states check
+OutputName1=Server's components states check
+OutputCategory1=Validation
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=1
+OutputEnabled1_OutputMedium1=1
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=ComponentStateSettings|CountGroups=1|GroupGUID_0= |StateCount_=0|DocumentPath=[Project]
+OutputType2=Configuration compliance
+OutputName2=Environment configuration compliance check
+OutputCategory2=Validation
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=2
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=AllFromVault=False|Prefernces=&&&&|Record=EnvironmentReportView|UseOutJob=False|UsePrefernces=False|UseTemplate=False|DocumentPath=[Project]
+OutputType3=Design Rules Check
+OutputName3=Design Rules Check
+OutputCategory3=Validation
+OutputDocumentPath3=
+OutputVariantName3=
+OutputEnabled3=1
+OutputEnabled3_OutputMedium1=4
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=ateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\Public\Documents\Altium\Peabody_Handle_Large\Peabody_Handle_Large.PcbDoc
+OutputType4=Differences Report
+OutputName4=Differences Report
+OutputCategory4=Validation
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=5
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=DifferenceLevel1=1|DifferenceLevel10=1|DifferenceLevel11=1|DifferenceLevel12=1|DifferenceLevel13=1|DifferenceLevel14=1|DifferenceLevel15=1|DifferenceLevel16=1|DifferenceLevel17=1|DifferenceLevel18=1|DifferenceLevel19=1|DifferenceLevel2=1|DifferenceLevel20=1|DifferenceLevel21=1|DifferenceLevel22=1|DifferenceLevel23=1|DifferenceLevel24=1|DifferenceLevel25=1|DifferenceLevel26=1|DifferenceLevel27=1|DifferenceLevel28=1|DifferenceLevel29=1|DifferenceLevel3=1|DifferenceLevel30=1|DifferenceLevel31=1|DifferenceLevel32=1|DifferenceLevel33=1|DifferenceLevel34=1|DifferenceLevel35=1|DifferenceLevel36=1|DifferenceLevel37=1|DifferenceLevel38=1|DifferenceLevel39=1|DifferenceLevel4=1|DifferenceLevel40=1|DifferenceLevel41=1|DifferenceLevel42=1|DifferenceLevel43=1|DifferenceLevel44=1|DifferenceLevel45=1|DifferenceLevel46=1|DifferenceLevel47=1|DifferenceLevel48=1|DifferenceLevel49=1|DifferenceLevel5=1|DifferenceLevel50=1|DifferenceLevel51=1|DifferenceLevel52=1|DifferenceLevel53=1|DifferenceLevel54=1|DifferenceLevel55=1|DifferenceLevel56=1|DifferenceLevel57=1|DifferenceLevel58=1|DifferenceLevel59=1|DifferenceLevel6=1|DifferenceLevel60=1|DifferenceLevel61=1|DifferenceLevel62=1|DifferenceLevel63=1|DifferenceLevel64=1|DifferenceLevel65=1|DifferenceLevel66=1|DifferenceLevel67=1|DifferenceLevel68=1|DifferenceLevel69=1|DifferenceLevel7=1|DifferenceLevel70=1|DifferenceLevel71=1|DifferenceLevel72=1|DifferenceLevel73=1|DifferenceLevel74=1|DifferenceLevel75=1|DifferenceLevel76=1|DifferenceLevel77=1|DifferenceLevel78=1|DifferenceLevel79=1|DifferenceLevel8=1|DifferenceLevel80=1|DifferenceLevel81=1|DifferenceLevel82=1|DifferenceLevel9=1|Record=DiffReportView|DocumentPath=C:\Users\akhursp\Documents\Altium\1650390 - PCB - Foot, CNTL, SVAC\1650390 - PCB - Foot, CNTL, SVAC.PcbDoc
+OutputType5=Electrical Rules Check
+OutputName5=Electrical Rules Check
+OutputCategory5=Validation
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=6
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=ERCClassColumnOrder=0|ERCClassColumnSort=0|ERCClassColumnVisibility=True|ERCConnectionMatrixL1=NNNNNNNNNNNWNNNWW|ERCConnectionMatrixL10=NWNNNNNENNEWNNEWN|ERCConnectionMatrixL11=NNENNNNEEENWNENWN|ERCConnectionMatrixL12=WWWWNWWNWWWNWWWNN|ERCConnectionMatrixL13=NNNNNNNNNNNWNNNWW|ERCConnectionMatrixL14=NWEENEEEENEWNEEWW|ERCConnectionMatrixL15=NNENNNNEEENWNENWW|ERCConnectionMatrixL16=WWWWNWWNWWWNWWWNW|ERCConnectionMatrixL17=WNNNNNNNWNNNWWWWN|ERCConnectionMatrixL2=NNWNNNNWWWNWNWNWN|ERCConnectionMatrixL3=NWEENEEEENEWNEEWN|ERCConnectionMatrixL4=NNENNNWEENNWNENWN|ERCConnectionMatrixL5=NNNNNNNNNNNNNNNNN|ERCConnectionMatrixL6=NNENNNNEENNWNENWN|ERCConnectionMatrixL7=NNEWNNWEENNWNENWN|ERCConnectionMatrixL8=NWEENEENEEENNEENN|ERCConnectionMatrixL9=NWEENEEEENEWNEEWW|ERCDocumentColumnOrder=1|ERCDocumentColumnSort=0|ERCDocumentColumnVisibility=True|ERCMessageColumnOrder=2|ERCMessageColumnSort=0|ERCMessageColumnVisibility=True|ERCReportGrouping=2|ERCReportMode=0|ERCReportSuppressedErrors=False|ERCType1=1|ERCType10=1|ERCType100=2|ERCType101=0|ERCType102=2|ERCType103=2|ERCType104=1|ERCType105=2|ERCType106=2|ERCType107=2|ERCType108=2|ERCType109=1|ERCType11=2|ERCType110=1|ERCType111=1|ERCType112=1|ERCType113=1|ERCType114=2|ERCType115=2|ERCType116=2|ERCType117=3|ERCType118=3|ERCType119=3|ERCType12=2|ERCType120=0|ERCType121=3|ERCType122=2|ERCType123=1|ERCType124=1|ERCType125=1|ERCType126=1|ERCType127=1|ERCType128=2|ERCType129=2|ERCType13=2|ERCType130=2|ERCType131=2|ERCType132=2|ERCType133=2|ERCType134=2|ERCType135=2|ERCType136=2|ERCType137=2|ERCType138=1|ERCType139=1|ERCType14=1|ERCType140=1|ERCType141=1|ERCType142=1|ERCType143=1|ERCType144=1|ERCType145=1|ERCType146=1|ERCType147=2|ERCType148=2|ERCType149=2|ERCType15=1|ERCType150=2|ERCType151=2|ERCType152=1|ERCType153=1|ERCType154=0|ERCType155=0|ERCType156=0|ERCType157=0|ERCType158=0|ERCType159=0|ERCType16=1|ERCType160=0|ERCType161=0|ERCType17=1|ERCType18=1|ERCType19=1|ERCType2=1|ERCType20=0|ERCType21=0|ERCType22=0|ERCType23=0|ERCType24=1|ERCType25=2|ERCType26=0|ERCType27=2|ERCType28=1|ERCType29=1|ERCType3=2|ERCType30=1|ERCType31=1|ERCType32=2|ERCType33=0|ERCType34=2|ERCType35=1|ERCType36=2|ERCType37=1|ERCType38=2|ERCType39=2|ERCType4=1|ERCType40=2|ERCType41=0|ERCType42=2|ERCType43=1|ERCType44=0|ERCType45=0|ERCType46=0|ERCType47=0|ERCType48=0|ERCType49=0|ERCType5=2|ERCType50=2|ERCType51=0|ERCType52=0|ERCType53=1|ERCType54=1|ERCType55=1|ERCType56=2|ERCType57=2|ERCType58=2|ERCType59=2|ERCType6=2|ERCType60=0|ERCType61=0|ERCType62=0|ERCType63=0|ERCType64=0|ERCType65=1|ERCType66=3|ERCType67=2|ERCType68=2|ERCType69=0|ERCType7=0|ERCType70=2|ERCType71=2|ERCType72=2|ERCType73=2|ERCType74=1|ERCType75=2|ERCType76=1|ERCType77=1|ERCType78=1|ERCType79=1|ERCType8=2|ERCType80=2|ERCType81=3|ERCType82=3|ERCType83=3|ERCType84=3|ERCType85=3|ERCType86=2|ERCType87=2|ERCType88=2|ERCType89=1|ERCType9=2|ERCType90=1|ERCType91=3|ERCType92=3|ERCType93=2|ERCType94=2|ERCType95=2|ERCType96=2|ERCType97=2|ERCType98=0|ERCType99=1|ERCValidationErrorLevel=1|Record=ERCReportView|DocumentPath=C:\Users\akhursp\Documents\Altium\1650390 - PCB - Foot, CNTL, SVAC\1650390 - PCB - Foot, CNTL, SVAC.PrjPcb
+OutputType6=Footprint Comparison Report
+OutputName6=Footprint Comparison Report
+OutputCategory6=Validation
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=1
+OutputEnabled6_OutputMedium1=3
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=Record=TUpdateFromPCBLibrariesSettings|DocumentPath=C:\Users\akhursp\Documents\Altium\1650390 - PCB - Foot, CNTL, SVAC\1650390 - PCB - Foot, CNTL, SVAC.PcbDoc
+
+[PublishSettings]
+OutputFilePath1=Project Outputs for Free Documents\
+ReleaseManaged1=1
+OutputBasePath1=Project Outputs for Free Documents
+OutputPathMedia1=
+OutputPathMediaValue1=
+OutputPathOutputer1=
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=
+OutputFileName1=
+OutputFileNameMulti1==OutputName
+UseOutputNameForMulti1=0
+OutputFileNameSpecial1=
+OpenOutput1=1
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=Project Outputs for Free Documents\
+OpenOutputs1=1
+AddToProject1=1
+TimestampFolder1=0
+UseOutputName1=0
+OpenODBOutput1=0
+OpenGerberOutput1=0
+OpenNCDrillOutput1=0
+OpenIPCOutput1=0
+EnableReload1=0
+
