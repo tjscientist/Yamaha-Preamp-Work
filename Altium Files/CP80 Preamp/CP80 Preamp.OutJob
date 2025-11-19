@@ -2,15 +2,15 @@
 Version=1.0
 
 [PublishSettings]
-OutputFilePath2=C:\Users\JSwan\Documents\Yamaha Preamp Work\Altium Files\CP80 Preamp\.PDF
+OutputFilePath2=C:\Users\JSwan\Documents\Yamaha-Preamp-Work\Documents\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\JSwan\Documents\Yamaha Preamp Work\Altium Files\CP80 Preamp\
+OutputBasePath2=C:\Users\JSwan\Documents\Yamaha-Preamp-Work\Documents\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=CP80 Preamp.pdf
+OutputFileName2=Schematic - CP80 Preamp - SmartPDF.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
@@ -79,7 +79,7 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
-ExcludedParamCount2=7
+ExcludedParamCount2=10
 ExcludedParam2_0=footprint
 ExcludedParam2_1=ibis Model
 ExcludedParam2_2=Library Name
@@ -87,9 +87,12 @@ ExcludedParam2_3=Library Reference
 ExcludedParam2_4=PCB3D
 ExcludedParam2_5=Simulation
 ExcludedParam2_6=Signal Integrity
+ExcludedParam2_7=Component Kind
+ExcludedParam2_8=Pin Info
+ExcludedParam2_9=Case/Package
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\JSwan\Documents\Yamaha Preamp Work\Altium Files\CP80 Preamp\.PDF
+RelativeOutputPath2=C:\Users\JSwan\Documents\Yamaha-Preamp-Work\Documents\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
