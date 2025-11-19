@@ -16,19 +16,17 @@ The smartPDF schematic, named "Schematic - CP80 Preamp - SmartPDF", is a very us
 
 Additionally on the schematic, you will see my notes and highlights. The following is from the bottom of the PDF and explains a bit of the information it contains:
 
-```
-The MCD-527 LDRs (Light Dependent Resistors):
-TRD101 and TRD102, are split into 2 parts each. These parts are the LED light source (Part B - Highlighted Green) and the Photoresistor (Part A - Highlighted Red). 
+*The MCD-527 LDRs (Light Dependent Resistors):*
+*TRD101 and TRD102, are split into 2 parts each. These parts are the LED light source (Part B - Highlighted Green) and the Photoresistor (Part A - Highlighted Red).* 
 
-Signal Flow:
-Audio enters from the piezo pickups at the upper left and is highlighted in yellow all the way to the buffer amplifiers where it is split into unvbalanced  high and balanced low impeadance stereo signals. The left high impeadance signal is highlighted in red while the right high impeadance signal is highlighted in green. The left low impeadance signal is highlighted in purple while the right low impeadance signal is highlighted in pink.
+*Signal Flow:*
+*Audio enters from the piezo pickups at the upper left and is highlighted in yellow all the way to the buffer amplifiers where it is split into unvbalanced  high and balanced low impeadance stereo signals. The left high impeadance signal is highlighted in red while the right high impeadance signal is highlighted in green. The left low impeadance signal is highlighted in purple while the right low impeadance signal is highlighted in pink.*
 
-The tone brilliance signals are detailed on the far right, external controls are labeled in bold red, and adjustment pots are highlighted in bright green boxes.
+*The tone brilliance signals are detailed on the far right, external controls are labeled in bold red, and adjustment pots are highlighted in bright green boxes.*
 
-Clicking on any component in the PDF file will show the original part number, part specifications, and notes on replacement parts.
+*Clicking on any component in the PDF file will show the original part number, part specifications, and notes on replacement parts.*
 
-Using the PDF file bookmarks, you can jump to any specific part or net.
-```
+*Using the PDF file bookmarks, you can jump to any specific part or net.*
 
 ## Part Data Sheets
 
