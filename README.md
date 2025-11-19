@@ -12,7 +12,7 @@ I use Altium in me every day life as my primary tool for designing electronic sc
 
 The smartPDF schematic, named "Schematic - CP80 Preamp - SmartPDF", is a very useful document. In it you will find the preamp schematic which I have redrawn and find much more readable. But wait, there's more! By clicking on any part in the schematic, you will get a pop-up which includes the original part number, manufacturer, part description, and a comment field where I have listed what I suggest to use if you want or need to replace that particular part. Below is an example showing what appears when FET1 is clicked:
 
-![SmartPDF_Example_Click](Images\SmartPDF_Example_Click.PNG)
+![SmartPDF_Example_Click](.\Images\SmartPDF_Example_Click.PNG)
 
 
 
