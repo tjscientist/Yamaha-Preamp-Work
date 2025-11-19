@@ -42,4 +42,4 @@ The main files TINA uses have a TSC extension and the graphing files have a tdr 
 
 There is a document in the Documents folder (and eventually a video link) "CP-80 Preamp TINA-TI Simulations" that explains the circuit and how to generate simulations like the one below (this one shows the frequency response from 1hZ to 20kHz with the Brilliance Switch set to High, Bass and Treble controls at 99%, and the Mid control set to 10 different settings as shown in the legend of the plot):
 
-![CP-80 Preamp Frequency Response (HI_M_99)](Images/CP-80 Preamp Frequency Response (HI_M_99).PNG)
+![CP-80 Preamp Frequency Response HI_M_99](Images/CP-80 Preamp Frequency Response HI_M_99.PNG)
