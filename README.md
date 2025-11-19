@@ -10,16 +10,38 @@ I use Altium in me every day life as my primary tool for designing electronic sc
 
 ## SmartPDF Schematic
 
-The smartPDF schematic, named "Schematic - CP80 Preamp - SmartPDF", is a very useful document. In it you will find the preamp schematic which I have redrawn and find much more readable. But wait, there's more! By clicking on any part in the schematic, you will get a pop-up which includes the original part number, manufacturer, part description, and a comment field where I have listed what I suggest to use if you want or need to replace that particular part. Below is an example showing what appears when FET1 is clicked:
+The smartPDF schematic, named "Schematic - CP80 Preamp - SmartPDF", is a very useful document. In it you will find the preamp schematic which I have redrawn and find much more readable. But wait, there's more! By clicking on any part in the schematic, you will get a pop-up which includes the original part number, manufacturer, part description, and a comment field where I have listed what I suggest to use if you want or need to replace that particular part. Some parts have a lot of information while others do not require so much. Below is an example showing what appears when FET1 is clicked:
 
 ![SmartPDF_Example_Click](Images/SmartPDF_Example_Click.PNG)
 
+Additionally on the schematic, you will see my notes and highlights. The following is from the bottom of the PDF and explains a bit of the information it contains:
 
+```
+The MCD-527 LDRs (Light Dependent Resistors):
+TRD101 and TRD102, are split into 2 parts each. These parts are the LED light source (Part B - Highlighted Green) and the Photoresistor (Part A - Highlighted Red). 
 
+Signal Flow:
+Audio enters from the piezo pickups at the upper left and is highlighted in yellow all the way to the buffer amplifiers where it is split into unvbalanced  high and balanced low impeadance stereo signals. The left high impeadance signal is highlighted in red while the right high impeadance signal is highlighted in green. The left low impeadance signal is highlighted in purple while the right low impeadance signal is highlighted in pink.
 
+The tone brilliance signals are detailed on the far right, external controls are labeled in bold red, and adjustment pots are highlighted in bright green boxes.
 
+Clicking on any component in the PDF file will show the original part number, part specifications, and notes on replacement parts.
 
+Using the PDF file bookmarks, you can jump to any specific part or net.
+```
 
+## Part Data Sheets
 
+This is pretty self explanatory. In the Part Data Sheets folder you will find data sheets for some of the parts in the preamp. Most of these are simply data sheets that are hard to find, so I included them here as an easy reference. I may add more over time.
 
-, equivalent parts to repair the amp, frequency response of the tone circuits and eventually a complete rebuild of the preamp using modern parts while maintaining the original sound.
+## TINA-TI Spice Files
+
+For those that are not familiar with TINA-TI, it is a free, SPICE-based circuit simulation software from Texas Instruments (TI) and DesignSoft that is used to design, test, and analyze analog, digital, and mixed electronic circuits. It includes a graphical interface for schematic capture, analysis capabilities like DC, transient, and frequency domain, and virtual instruments. The program is a simplified version of the full TINA Design Suite but remains powerful enough for complex circuits.  For more information check out TINA-TI's website: [https://www.ti.com/tool/TINA-TI](https://www.ti.com/tool/TINA-TI).
+
+The main files TINA uses have a TSC extension and the graphing files have a tdr extension. Below you can see the schematic which I have entered into TINA (CP-80.TSC):
+
+![TINA_Schematic](Images/TINA_Schematic.png)
+
+There is a document in the Documents folder (and eventually a video link) "CP-80 Preamp TINA-TI Simulations" that explains the circuit and how to generate simulations like the one below (this one shows the frequency response from 1hZ to 20kHz with the Brilliance Switch set to High, Bass and Treble controls at 99%, and the Mid control set to 10 different settings as shown in the legend of the plot):
+
+![CP-80 Preamp Frequency Response (HI_M_99)](Images/CP-80 Preamp Frequency Response (HI_M_99).png)
