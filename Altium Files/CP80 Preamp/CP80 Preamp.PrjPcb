@@ -129,6 +129,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
+DocumentPath=CP80 Preamp.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CJAMVLHO
+
+[Document6]
 DocumentPath=Managed\OutputJobs\0C2B45B3-A545-41AC-9AB9-77FFFCD941A8\OUT-0024-1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -145,7 +162,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document7]
 DocumentPath=Managed\OutputJobs\57BB1F11-DF30-4828-AD60-A48B0065AE3A\OUT-0022-3.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -162,7 +179,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document8]
 DocumentPath=Managed\OutputJobs\C28E0DFC-B340-44F5-AAA6-E78581CFBFEE\OUT-0023-2.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -178,23 +195,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document8]
-DocumentPath=CP80 Preamp.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CJAMVLHO
 
 [Parameter1]
 Name=B_ARCHITECHT
