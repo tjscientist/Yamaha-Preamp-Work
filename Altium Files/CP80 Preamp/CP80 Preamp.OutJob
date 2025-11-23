@@ -2,15 +2,15 @@
 Version=1.0
 
 [PublishSettings]
-OutputFilePath2=C:\Users\JSwan\Documents\Yamaha-Preamp-Work\Documents\.PDF
+OutputFilePath2=C:\Users\JSwan\Documents\Yamaha-Preamp-Work\Altium Files\CP80 Preamp\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\JSwan\Documents\Yamaha-Preamp-Work\Documents\
+OutputBasePath2=C:\Users\JSwan\Documents\Yamaha-Preamp-Work\Altium Files\CP80 Preamp\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=Schematic - CP80 Preamp - SmartPDF.pdf
+OutputFileName2=CP80 Preamp.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
@@ -92,7 +92,7 @@ ExcludedParam2_8=Pin Info
 ExcludedParam2_9=Case/Package
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\JSwan\Documents\Yamaha-Preamp-Work\Documents\.PDF
+RelativeOutputPath2=C:\Users\JSwan\Documents\Yamaha-Preamp-Work\Altium Files\CP80 Preamp\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
