@@ -4,6 +4,8 @@ This all started out as a "simple" CP-80 restoration and (as usual) turned into 
 
 What you see up here currently (as of November 2025) are a collection of files, specs, and simulations I have put together and am trying to get organized into something cohesive. Below I will delineate each section and what is in it. As always, please feel free to comment, ask questions, and/or add your own experiences.
 
+This is still an ongoing endeavor and there is much I want to do. I am always open to suggestions.
+
 ## Altium Files
 
 I use Altium in me every day life as my primary tool for designing electronic schematics and PCBs but I do understand that not everyone has access to this tool. If you do have access to Altium, you will find the entire schematic and part libraries in the **Altium Files** folder. On the other hand, if you do not have access to Altium, do not despair as you will find what is known as a Smart PDF of the schematic in the **Documents** folder named "Schematic - CP80 Preamp - SmartPDF."
@@ -30,7 +32,7 @@ Additionally on the schematic, you will see my notes and highlights. The followi
 
 ## Part Data Sheets
 
-This is pretty self explanatory. In the Part Data Sheets folder you will find data sheets for some of the parts in the preamp. Most of these are simply data sheets that are hard to find, so I included them here as an easy reference. I may add more over time.
+This is pretty self explanatory. In the Part Data Sheets folder you will find data sheets for some of the parts in the preamp. Most of these are simply data sheets that are hard to find, so I included them here as an easy reference. Additionally, when I am researching acceptable alternatives, I put those data sheets in there as well. I may add more over time.
 
 ## TINA-TI Spice Files
 
