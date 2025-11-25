@@ -6,6 +6,12 @@ What you see up here currently (as of November 2025) are a collection of files, 
 
 This is still an ongoing endeavor and there is much I want to do. I am always open to suggestions.
 
+## Why Even Bother?
+
+I know a lot of people will look at this and just ask, "Why not just do the direct out modification and call it all good?"
+
+The simple answer is I did do that and it sounds pretty good. Then I ran it through my Art Pro Tube preamp... Nice. Then through my restored BOSS CE-1.. Better. Then I wanted the nice stereo tremolo you get from the original preamp and had to work on that. Finally, I just thought why not get back to basics. Do what I do best which is restore everything to as original as possible. So that is what I am doing. I love buying, restoring, and using vintage equipment and I have a lot of it. Several Fender Rhodes pianos, Clavinets, Wurlitzers, B3, A100... And the list goes on. And I know there are many others out there just as crazy as I am when it comes to this, so here we are.
+
 ## Altium Files
 
 I use Altium in me every day life as my primary tool for designing electronic schematics and PCBs but I do understand that not everyone has access to this tool. If you do have access to Altium, you will find the entire schematic and part libraries in the **Altium Files** folder. On the other hand, if you do not have access to Altium, do not despair as you will find what is known as a Smart PDF of the schematic in the **Documents** folder named "Schematic - CP80 Preamp - SmartPDF."
