@@ -145,59 +145,16 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJAMVLHO
 
-[Document6]
-DocumentPath=Managed\OutputJobs\0C2B45B3-A545-41AC-9AB9-77FFFCD941A8\OUT-0024-1.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
-DocumentPath=Managed\OutputJobs\57BB1F11-DF30-4828-AD60-A48B0065AE3A\OUT-0022-3.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document8]
-DocumentPath=Managed\OutputJobs\C28E0DFC-B340-44F5-AAA6-E78581CFBFEE\OUT-0023-2.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
+DocumentPath=..\..\Documents\Bill of Materials-CP80 Preamp.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=CP80 Preamp.doc
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Outputs\CP80 Preamp BOM.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
@@ -717,13 +674,15 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=ForceUpdateSettings
 Configuration1_Item2=False
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
+Configuration1_Item3=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1686|FormHeight=906|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Comment=True|Footprint=True
 Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Item5=Designator=Up|Comment=Up
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration1_Item6=Comment=120|Description=120|Designator=120|LibRef=120|Quantity=120
+Configuration1_Name7=VisibleOrder_Flat
+Configuration1_Item7=Comment=120|Description=120|Designator=120|LibRef=120|Quantity=120
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -1363,8 +1322,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=CP80 Preamp.SCHLIB
-ComponentDesignItemID0=Copy of Resistor
-ComponentSymbolReference0=Copy of Resistor
+ComponentDesignItemID0=Cap_Non_Pol_100nF
+ComponentSymbolReference0=Cap_Non_Pol_100nF
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1380,27 +1339,28 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Capacitor Type
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=Description
 ParameterUpdate3=1
-ParameterName4=Manufacturer
+ParameterName4=Library Reference
 ParameterUpdate4=1
-ParameterName5=Power
+ParameterName5=Manufacturer
 ParameterUpdate5=1
-ParameterName6=Tolerance
+ParameterName6=Supplier 1
 ParameterUpdate6=1
-ParameterName7=Value
+ParameterName7=Supplier Part Number 1
 ParameterUpdate7=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=SMD RES 1kO 20% .250W 200V 2420-Footprint-1
-ModelUpdate0=1
+ParameterName8=Tolerance
+ParameterUpdate8=1
+ParameterName9=Value
+ParameterUpdate9=1
+ParameterName10=Voltage Rating
+ParameterUpdate10=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1418,49 +1378,4 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Us
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-
-[ManagedOutputJobs1]
-VaultGUID=17D44472-9AE0-411C-8C1D-F6AAC254692A
-VaultHRID=Bissell Homecare Inc
-ItemGUID=695C17A4-C6FA-4ECF-947C-8DF4CB1F7CCD
-ItemHRID=OUT-0024
-RevisionGUID=0C2B45B3-A545-41AC-9AB9-77FFFCD941A8
-RevisionHRID=OUT-0024-1
-Cached_RevisionCaption=Mechanical Releases
-Cached_RevisionDescription=
-Cached_LifeCycleStateHRID=Integration
-Cached_LifeCycleStateGUID=[Unknown]
-Cached_LifeCycleStateColor=00F0FBFF
-Cached_LifeCycleStateTextColor=00FFFFFF
-Cached_RevisionReleaseDate=1/27/2025 1:56:34 PM
-
-[ManagedOutputJobs2]
-VaultGUID=17D44472-9AE0-411C-8C1D-F6AAC254692A
-VaultHRID=Bissell Homecare Inc
-ItemGUID=94BFFEDD-0CD2-4736-8A6A-A5E3B8E12E97
-ItemHRID=OUT-0022
-RevisionGUID=57BB1F11-DF30-4828-AD60-A48B0065AE3A
-RevisionHRID=OUT-0022-3
-Cached_RevisionCaption=Windchill Release
-Cached_RevisionDescription=
-Cached_LifeCycleStateHRID=Integration
-Cached_LifeCycleStateGUID=[Unknown]
-Cached_LifeCycleStateColor=00F0FBFF
-Cached_LifeCycleStateTextColor=00FFFFFF
-Cached_RevisionReleaseDate=1/27/2025 2:15:28 PM
-
-[ManagedOutputJobs3]
-VaultGUID=17D44472-9AE0-411C-8C1D-F6AAC254692A
-VaultHRID=Bissell Homecare Inc
-ItemGUID=F69E4C0E-1E03-4BB5-BBA8-09F4B576988B
-ItemHRID=OUT-0023
-RevisionGUID=C28E0DFC-B340-44F5-AAA6-E78581CFBFEE
-RevisionHRID=OUT-0023-2
-Cached_RevisionCaption=Validation Release
-Cached_RevisionDescription=
-Cached_LifeCycleStateHRID=Integration
-Cached_LifeCycleStateGUID=[Unknown]
-Cached_LifeCycleStateColor=00F0FBFF
-Cached_LifeCycleStateTextColor=00FFFFFF
-Cached_RevisionReleaseDate=1/27/2025 2:08:14 PM
 
