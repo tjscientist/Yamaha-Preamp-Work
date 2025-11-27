@@ -150,10 +150,6 @@ DocumentPath=..\..\Documents\Bill of Materials-CP80 Preamp.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=CP80 Preamp.doc
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Outputs\CP80 Preamp BOM.xlsx
 DItemRevisionGUID=
 
